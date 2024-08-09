@@ -1,0 +1,6 @@
+# To append in the file we need to change the mode to a...
+# In Append mode the whole file is not rewritten, It is APPENDED...
+
+with open('My_File.txt', mode='a') as file:
+    content = file.write('\nNew_Text.')
+    print(content)

@@ -1,0 +1,9 @@
+# default open statement open the file in read mode...
+
+with open('My_File.txt') as file:
+    content = file.read()
+    print(content)
+
+# now we don't need to close the file...
+# its important because python use resources to open a file, and we don't know when it closes the file...
+# file.close()
